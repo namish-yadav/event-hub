@@ -2,7 +2,7 @@
 
 A free, open-source template for listing **upcoming** and **past** community events — meetups, workshops, conferences, club nights, anything with a date attached. Fork it, swap in your own events, and ship it as a static page or wire it up to a backend later.
 
-🔗 **[Live demo](#)** ← replace with your GitHub Pages link after deploying
+🔗 **[Live demo](https://namish-yadav.github.io/event-hub/)**
 
 ![Event Hub preview](https://cdn.freecodecamp.org/curriculum/labs/past-event1.jpg)
 
@@ -30,7 +30,7 @@ A free, open-source template for listing **upcoming** and **past** community eve
 1. **Use this template** (click the green "Use this template" button on GitHub) or clone it directly:
 
    ```bash
-   git clone https://github.com/namish-yadav/event-hub
+   git clone https://github.com/namish-yadav/event-hub.git
    cd event-hub
    ```
 
@@ -90,7 +90,7 @@ event-hub/
 1. Push this repo to GitHub
 2. Go to **Settings → Pages**
 3. Set source to your default branch, root folder
-4. Your site is live at `namish-yadav.github.io/event-hub/`
+4. Your site is live at `https://namish-yadav.github.io/event-hub/`
 
 Any other static host (Netlify, Vercel, Cloudflare Pages) works by just pointing it at this folder — no build command required.
 
@@ -102,6 +102,10 @@ Any other static host (Netlify, Vercel, Cloudflare Pages) works by just pointing
 - [ ] Add a dark mode toggle
 
 Contributions welcome — open an issue or PR.
+
+## Author
+
+Built by [Namish Yadav](https://github.com/namish-yadav).
 
 ## License
 
