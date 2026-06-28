@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Hub — Community Events Template</title>
+    <meta name="description" content="A free, open-source template for listing upcoming and past community events. Built with semantic HTML, vanilla CSS, and vanilla JS — no frameworks required.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+    <div class="header-inner">
+        <h1 class="site-title">Event Hub</h1>
+        <nav class="site-nav" aria-label="Primary">
+            <ul>
+                <li><a href="#upcoming-events">Upcoming</a></li>
+                <li><a href="#past-events">Past</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main id="main">
+
+    <section id="upcoming-events" class="event-section" aria-labelledby="upcoming-heading">
+        <div class="section-inner">
+            <div class="section-head">
+                <h2 id="upcoming-heading">Upcoming Events</h2>
+                <span class="event-count" data-count-target="upcoming-events"></span>
+            </div>
+
+            <div class="event-grid">
+                <article class="event-card" data-event-date="2026-06-30">
+                    <div class="event-card-meta">
+                        <time datetime="2026-06-30" class="event-date">
+                            <span class="event-date-day">30</span>
+                            <span class="event-date-month">Jun</span>
+                        </time>
+                        <span class="event-countdown" data-countdown></span>
+                    </div>
+                    <div class="event-card-body">
+                        <h3>Community Welcome Night</h3>
+                        <p>
+                            Join us for an inspiring evening of talks, hands-on demos,
+                            and time to connect with people building in the community.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="event-card" data-event-date="2026-07-18">
+                    <div class="event-card-meta">
+                        <time datetime="2026-07-18" class="event-date">
+                            <span class="event-date-day">18</span>
+                            <span class="event-date-month">Jul</span>
+                        </time>
+                        <span class="event-countdown" data-countdown></span>
+                    </div>
+                    <div class="event-card-body">
+                        <h3>Workshop: Getting Started</h3>
+                        <p>
+                            A hands-on session for newcomers covering the basics,
+                            with experienced members on hand to help and answer questions.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="past-events" class="event-section event-section--past" aria-labelledby="past-heading">
+        <div class="section-inner">
+            <div class="section-head">
+                <h2 id="past-heading">Past Events</h2>
+                <span class="event-count" data-count-target="past-events"></span>
+            </div>
+
+            <div class="event-grid event-grid--past">
+                <article class="event-card event-card--past" data-event-date="2025-05-05">
+                    <img
+                        src="https://cdn.freecodecamp.org/curriculum/labs/past-event1.jpg"
+                        alt="Attendees gathered at a past community event, talking in small groups"
+                        loading="lazy"
+                        class="event-card-image">
+                    <div class="event-card-body">
+                        <time datetime="2025-05-05" class="event-date-inline">May 5, 2025</time>
+                        <h3>Spring Meetup</h3>
+                        <p>
+                            This past event brought people together to share ideas,
+                            explore new topics, and take part in hands-on activities.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="event-card event-card--past" data-event-date="2025-12-05">
+                    <img
+                        src="https://cdn.freecodecamp.org/curriculum/labs/past-event2.jpg"
+                        alt="Participants collaborating around a table at a past community event"
+                        loading="lazy"
+                        class="event-card-image">
+                    <div class="event-card-body">
+                        <time datetime="2025-12-05" class="event-date-inline">December 5, 2025</time>
+                        <h3>Year-End Showcase</h3>
+                        <p>
+                            Members presented what they'd built over the year and
+                            celebrated milestones together as a community.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer class="site-footer">
+    <p>Built with the <a href="https://github.com/" target="_blank" rel="noopener">Event Hub template</a> — fork it, fill in your own events, ship it.</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
